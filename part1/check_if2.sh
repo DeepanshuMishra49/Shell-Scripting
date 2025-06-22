@@ -4,6 +4,8 @@
  this is for entry of peoples
 disclaimer
 
+#this is function calling
+function Entry_Event(){
 read -p "Are you from KIET? (yes/no): " cllg
 
 if [[ "$cllg" == "yes" || "$cllg" == "Yes" ]]; then
@@ -17,3 +19,7 @@ else
         echo "Entry not allowed."
     fi
 fi
+}
+
+#Function_call 
+Entry_Event
